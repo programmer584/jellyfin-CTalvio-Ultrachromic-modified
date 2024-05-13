@@ -14,8 +14,10 @@ To use the theme copy paste the code below into "Dashboard>General>Custom CSS" a
 
 
 
-![afbeelding](https://github.com/programmer584/jellyfin-CTalvio-Ultrachromic-modified/assets/96943997/74f6023a-5703-4ae2-8930-7d527fc5bb3b)
 
 ![afbeelding](https://github.com/programmer584/jellyfin-CTalvio-Ultrachromic-modified/assets/96943997/651d2d8d-7094-4034-8bc7-7ff1d81bc225)
 
 ![afbeelding](https://github.com/programmer584/jellyfin-CTalvio-Ultrachromic-modified/assets/96943997/b2731820-d64f-4871-9caa-1410eb7611e1)
+
+
+![afbeelding](https://github.com/programmer584/jellyfin-CTalvio-Ultrachromic-modified/assets/96943997/74f6023a-5703-4ae2-8930-7d527fc5bb3b)
