@@ -8,17 +8,23 @@
 @import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/header/header_transparent.css');
 @import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/login/login_minimalistic.css');
 @import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/fields/fields_border.css');
+
+/*Corner indicators weren't working after 10.9.1*/
 @import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/cornerindicator/indicator_floating.css');
+
 @import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/type/dark_withaccent.css');
 @import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/titlepage/title_simple.css');
 @import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/progress/floating.css');
 @import url('https://ctalvio.github.io/Monochromic/backdrop-hack_style.css');
 
+/*Custom accent color and roundings*/
 :root {--accent: 49.0122495,141.01246266074997,209.99249999999998;}
 :root {--rounding: 10px;}
 
+/*Homepage looks cleaner without the titles of the movies/series*/
 #homeTab .cardText {display: none;}
 
+/*I don't use this buttons of the web-media player*/
 .btnNextChapter {display: none;}
 .btnPreviousChapter {display: none;}
 
@@ -26,6 +32,13 @@
 .backdropImage {
   filter: blur(60px) saturate(200%) contrast(160%) brightness(25%);
 }
+
+/*Looks cleaner in my opinion*/
 .skinHeader.semiTransparent {
   background-color: rgba(0, 0, 0, 0);
+}
+
+/*Adjustment so that titles fit on one line*/
+.layout-mobile :not(.sectionTitleContainer-cards) > .sectionTitle-cards {
+  font-size: 1.4em;
 }
