@@ -5,6 +5,7 @@ Custom css for Jellyfin made with https://github.com/CTalvio/Ultrachromic
 ## Instalation
 
 To use the theme copy paste the code below into "Dashboard>General>Custom CSS" and click save, it will apply immediately server-wide to all users on top of any theme they may be using. To remove the theme, clear the "Custom CSS" field and then click save.
+To make it look better, I recommend turning on Backdrops (unfortunately, this currently has to be done on each new device if desired).
 
 ```css
 @import url('https://cdn.jsdelivr.net/gh/programmer584/jellyfin-CTalvio-Ultrachromic-modified/jellyfin-CTalvio-Ultrachromic-modified.css');
