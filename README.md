@@ -1,38 +1,36 @@
-# ✨ Jellyfin Theme: Modified CTalvio/Ultrachromic ✨
+# 🎨 Jellyfin Theme: Modified CTalvio/Ultrachromic
 
-Welcome! 👋 This repository contains a custom CSS modification based on the excellent [Ultrachromic theme by CTalvio](https://github.com/CTalvio/Ultrachromic).
+This repository provides a custom CSS modification for Jellyfin, based on the [Ultrachromic theme by CTalvio](https://github.com/CTalvio/Ultrachromic). It incorporates personal adjustments for a refined user interface.
 
-This version includes personal tweaks and adjustments to refine the user interface according to my preferences.
+## ✨ Features
 
-## 🚀 Installation Guide 🚀
+*   Provides an alternative visual style for the Jellyfin web interface
+*   Applies server-wide via the Custom CSS option
+*   Builds upon the popular Ultrachromic theme foundation
 
-Applying this theme to your Jellyfin instance is straightforward:
+## 🚀 Installation Guide
 
-1.  **Copy** the following CSS import rule: 👇
+Follow these steps to apply the theme modification:
 
+1.  **Copy CSS Rule:** Obtain the import rule below:
     ```css
     @import url('https://cdn.jsdelivr.net/gh/programmer584/jellyfin-CTalvio-Ultrachromic-modified/jellyfin-CTalvio-Ultrachromic-modified.css');
     ```
 
-2.  **Navigate** to your Jellyfin server's administration area: ⚙️ `Dashboard > General`.
-3.  Locate the **"Custom CSS"** field and **paste** the copied rule into it. 📝
-4.  Click the **"Save"** button to apply the changes. ✅
-5.  The theme modification will take effect **immediately** across the entire server for **all users**, layering on top of any existing themes they might have selected.
+2.  **Navigate to Settings:** Go to your Jellyfin server's `Dashboard > General` ⚙️ section.
+3.  **Paste Rule:** Locate the **"Custom CSS"** field and paste the copied rule into it 📝.
+4.  **Save Changes:** Click the **"Save"** button ✅.
 
-To revert the changes, simply clear the "Custom CSS" field and click "Save" again. 👍
+The theme will activate immediately for all users on the server. To remove it, clear the "Custom CSS" field and save again.
 
-<br>
+## 🌟 Usage Notes & Recommendations
 
-🌟 **Recommendation for Enhanced Visuals:** 🌟
-For the optimal visual experience with this theme, enabling **"Backdrops"** in your Jellyfin display settings is highly recommended.
+*   **Enable Backdrops:** For the best visual results, it is highly recommended to enable the **"Backdrops"** setting within your Jellyfin client's display preferences.
+*   **Client Setting:** ⚠️ Please be aware that the backdrop setting often needs to be configured individually on each client device.
 
-⚠️ *Please note:* This backdrop setting currently needs to be enabled manually on each client device. While slightly inconvenient, it significantly enhances the theme's appearance.
+## 📸 Screenshots
 
-<br>
-
-## 📸 Screenshots 📸
-
-Here's a preview of the modified theme in action:
+Preview of the theme modification:
 
 <br>
 
